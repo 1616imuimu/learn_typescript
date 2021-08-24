@@ -1,6 +1,12 @@
 "use strict";
-function expo2(amount) {
-    return Math.pow(amount, 2);
+function taxed(amount) {
+    return amount * 1.1;
 }
-console.log(expo2(1000));
-console.log(expo2('1,000'));
+function fee(amount) {
+    return amount * 1.4;
+}
+function price(amount) {
+    return fee(amount);
+}
+var demand = '¥' + taxed(price(1000));
+console.log(demand);
