@@ -1,13 +1,13 @@
-declare const wideningZero = 0;
-declare const nonWideningZero: 0;
-declare const asNonWideningZero: 0;
-declare let zeroA: number;
-declare let zeroB: number;
-declare let zeroC: 0;
-declare let zeroD: 0;
+declare const wideningZero = "value";
+declare const nonWideningZero: 'value';
+declare const asNonWideningZero: "value";
+declare let zeroA: string;
+declare let zeroB: string;
+declare let zeroC: "value";
+declare let zeroD: "value";
 declare const zeros: {
-    zeroA: number;
-    zeroB: number;
-    zeroC: 0;
-    zeroD: 0;
+    zeroA: string;
+    zeroB: string;
+    zeroC: "value";
+    zeroD: "value";
 };

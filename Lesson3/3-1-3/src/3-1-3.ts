@@ -1,8 +1,8 @@
-const wideningZero = 0
-const nonWideningZero: 0 = 0
-const asNonWideningZero = 0 as 0
+const wideningZero = 'value'
+const nonWideningZero: 'value' = 'value'
+const asNonWideningZero = 'value' as 'value'
 
-let zeroA = 0
+let zeroA = 'value'
 let zeroB = wideningZero
 let zeroC = nonWideningZero
 let zeroD = asNonWideningZero
